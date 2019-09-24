@@ -1,0 +1,10 @@
+controller\ClassroomInformationController.class
+controller\NoticeController.class
+controller\AdminReservationController.class
+controller\Interceptor\LoginInterceptor.class
+controller\LoginController.class
+controller\ActivityInformationController.class
+controller\OrderController.class
+controller\ChangPasswordController.class
+controller\ReservationClassroomController.class
+controller\StudentInformationController.class

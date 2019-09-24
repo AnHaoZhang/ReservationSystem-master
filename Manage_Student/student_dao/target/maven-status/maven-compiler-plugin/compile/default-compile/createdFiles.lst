@@ -1,0 +1,9 @@
+mapper\OrdercrMapper.class
+mapper\NoticeMapper.class
+mapper\StudentItemMapper.class
+mapper\NoticeItemsMapper.class
+mapper\StudentMapper.class
+mapper\ClassroomMapper.class
+mapper\OrderItemMapper.class
+mapper\AdministratorMapper.class
+mapper\ClassroomItemMapper.class

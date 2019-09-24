@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f43cf2b-4252-454c-bada-73fbcecf2fb4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../Manage_Login/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Login/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__com_alibaba_druid_1_0_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__com_alibaba_druid_1_0_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__com_github_miemiedev_mybatis_paginator_1_2_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__com_github_miemiedev_mybatis_paginator_1_2_15.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__javax_servlet_jsp_api_2_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__jstl_jstl_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_32.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_jetbrains_annotations_java5_16_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_jetbrains_annotations_java5_16_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_mybatis_mybatis_3_2_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_aop_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_aop_4_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_beans_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_beans_4_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_context_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_context_4_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_core_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_core_4_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_expression_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_expression_4_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_jms_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_jms_4_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_messaging_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_messaging_4_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_tx_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_tx_4_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_web_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_web_4_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_4_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/src/main/java/controller/OrdercrController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/src/main/java/controller/OrdercrController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/src/main/java/controller/wordexport/WordTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/src/main/java/controller/wordexport/WordTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/src/main/resource/conf/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/src/main/resource/conf/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/student_controller.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/student_controller.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/classes/conf/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/classes/conf/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/classes/controller/OrdercrController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/classes/controller/OrdercrController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/classes/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/classes/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/classes/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/classes/conf/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/classes/conf/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/classes/controller/OrdercrController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/classes/controller/OrdercrController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/classes/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/classes/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/classes/spring/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/classes/spring/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/jsp/ClassroomInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/jsp/ClassroomInfo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/jsp/activeAccount.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/jsp/activeAccount.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/jsp/application.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/jsp/application.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/jsp/passwordChange.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/jsp/passwordChange.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/jsp/personalOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/jsp/personalOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/lib/student_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/lib/student_dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/lib/student_pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/lib/student_pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/lib/student_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/WEB-INF/lib/student_service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/bootstrap-colorpicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/bootstrap-colorpicker.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/bootstrap-datepicker3.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/bootstrap-datepicker3.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/bootstrap-datetimepicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/bootstrap-editable.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/bootstrap-editable.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/bootstrap-timepicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/bootstrap-timepicker.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/chosen.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/chosen.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/dropzone.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/dropzone.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/fonts.googleapis.com.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/fonts.googleapis.com.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/fullcalendar.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/fullcalendar.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/jquery-ui.custom.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/jquery-ui.custom.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/jquery-ui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/css/jquery-ui.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/font-awesome/4.5.0/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/font-awesome/4.5.0/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/ace-editable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/ace-editable.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/ace-elements.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/ace-elements.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/ace.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/ace.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/autosize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/autosize.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap-colorpicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap-colorpicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap-datepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap-datepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap-datetimepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap-editable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap-editable.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap-markdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap-markdown.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap-multiselect.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap-multiselect.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap-tag.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap-tag.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap-timepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap-timepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap-wysiwyg.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap-wysiwyg.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/buttons.colVis.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/buttons.colVis.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/buttons.flash.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/buttons.flash.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/buttons.html5.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/buttons.html5.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/buttons.print.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/buttons.print.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/dataTables.buttons.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/dataTables.buttons.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/dataTables.select.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/dataTables.select.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/daterangepicker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/daterangepicker.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/dropzone.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/dropzone.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/fullcalendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/fullcalendar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/holder.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/holder.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/html5shiv.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/html5shiv.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery-1.11.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery-1.11.3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery-2.1.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery-2.1.4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery-additional-methods.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery-additional-methods.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery-typeahead.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery-typeahead.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery-ui.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery-ui.custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery-ui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.bootstrap-duallistbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.bootstrap-duallistbox.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.colorbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.colorbox.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.dataTables.bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.dataTables.bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.dataTables.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.dataTables.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.easypiechart.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.easypiechart.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.flot.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.flot.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.flot.pie.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.flot.pie.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.flot.resize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.flot.resize.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.gritter.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.gritter.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.hotkeys.index.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.hotkeys.index.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.inputlimiter.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.inputlimiter.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.jqGrid.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.jqGrid.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.maskedinput.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.maskedinput.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.mobile.custom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.mobile.custom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.nestable.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.nestable.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.raty.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.raty.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.sparkline.index.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.sparkline.index.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.ui.touch-punch.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.ui.touch-punch.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/jquery.validate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/markdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/markdown.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/moment.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/moment.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/prettify.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/prettify.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/respond.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/respond.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/select2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/select2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/spin.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/spin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/spinbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/spinbox.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/tree.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/tree.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/wizard.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_controller/target/student_controller/assets/js/wizard.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_dao/student_dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_dao/student_dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_dao/target/classes/mapper/OrderItemMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_dao/target/classes/mapper/OrderItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_pojo/target/classes/pojo/ClassroomStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_pojo/target/classes/pojo/ClassroomStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_service/student_service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_service/student_service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_service/target/classes/Impl/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_service/target/classes/Impl/OrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/student_service/target/classes/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/student_service/target/classes/service/OrderService.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1488759989">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="xml" value="100" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="XML" value="100" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="apt" value="1" />
+          <entry key="groovy" value="1" />
+          <entry key="md" value="1" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="73" column="19" lean-forward="false" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Manage_Parent.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Manage_Parent.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+>>>>>>> 1ad0ffa5423b09cd7a16225e7c10075775017f57
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jackson</find>
+      <find>freemarker</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.5.4-bin/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ManageParant" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="155" />
+    <option name="y" value="40" />
+    <option name="width" value="1400" />
+    <option name="height" value="990" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+<<<<<<< HEAD
+      <pane id="Scratches" />
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> 1ad0ffa5423b09cd7a16225e7c10075775017f57
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Manage_Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Manage_Parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manage_Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Manage_Parent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manage_Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Manage_Parent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Manage_Parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+<<<<<<< HEAD
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+=======
+>>>>>>> 1ad0ffa5423b09cd7a16225e7c10075775017f57
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543130774466" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f43cf2b-4252-454c-bada-73fbcecf2fb4" name="Default" comment="" />
+      <created>1541495533904</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541495533904</updated>
+      <workItem from="1541495536851" duration="2000000" />
+      <workItem from="1541830761881" duration="3190000" />
+      <workItem from="1541863271261" duration="1000" />
+      <workItem from="1542093800780" duration="1209000" />
+      <workItem from="1542112277921" duration="82000" />
+<<<<<<< HEAD
+      <workItem from="1543160774009" duration="1100000" />
+      <workItem from="1543209094680" duration="173000" />
+=======
+      <workItem from="1543074897731" duration="499000" />
+      <workItem from="1543129698672" duration="1077000" />
+>>>>>>> 1ad0ffa5423b09cd7a16225e7c10075775017f57
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="7755000" />
+=======
+    <option name="totallyTimeSpent" value="8058000" />
+>>>>>>> 1ad0ffa5423b09cd7a16225e7c10075775017f57
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="846" extended-state="6" />
+    <layout>
+<<<<<<< HEAD
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2725322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19504021" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295325" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3043478" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3295325" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297587" />
+>>>>>>> 1ad0ffa5423b09cd7a16225e7c10075775017f57
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Manage_Parent.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/site/site.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/site/markdown/markdown.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/site/apt/index.apt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1188">
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+<<<<<<< HEAD
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manage_Parent.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manage_Parent.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manage_Parent.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Manage_Parent.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="73" column="19" lean-forward="false" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+          <folding />
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="222" column="45" lean-forward="true" selection-start-line="222" selection-start-column="45" selection-end-line="222" selection-end-column="45" />
+>>>>>>> 1ad0ffa5423b09cd7a16225e7c10075775017f57
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>sso_interface-1.0-SNAPSHOT</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Manage_Parent</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

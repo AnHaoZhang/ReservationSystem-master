@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mapper.ClassroomItemMapper">
+    <resultMap id="ClassroomListWithCid" type="pojo.Classroom">
+        <id column="cid" property="cid" jdbcType="INTEGER"/>
+        <result column="cnum" property="cnum" jdbcType="INTEGER"/>
+
+        <association property="ordercr" javaType="pojo.Ordercr">
+            <id column="orderid" property="orderid" jdbcType="INTEGER"/>
+            <result column="cid" property="cid" jdbcType="VARCHAR"/>
+            <result column="starttime" property="starttime" jdbcType="VARCHAR"/>
+            <result column="endtime" property="endtime" jdbcType="VARCHAR"/>
+            <result column="theme" property="theme" jdbcType="VARCHAR"/>
+            <result column="snum" property="snum" jdbcType="VARCHAR"/>
+            <result column="faculty" property="faculty" jdbcType="VARCHAR"/>
+            <result column="groupname" property="groupname" jdbcType="VARCHAR"/>
+            <result column="teacher" property="teacher" jdbcType="VARCHAR"/>
+            <result column="stelephone" property="stelephone" jdbcType="VARCHAR"/>
+            <result column="attendcount" property="attendcount" jdbcType="INTEGER"/>
+            <result column="orderstatus" property="orderstatus" jdbcType="INTEGER"/>
+            <result column="createtime" property="createtime" jdbcType="VARCHAR"/>
+        </association>
+    </resultMap>
+    <!--查询全部教室信息-->
+    <select id="getClassroomItemList" resultType="pojo.Classroom">
+        SELECT *
+        from classroom
+    </select>
+
+    <!--查询教室某天的信息-->
+    <select id="getClassroomListSingleDay" resultMap="ClassroomListWithCid">
+        select
+        cr.cid,
+        cr.cnum,
+        oc.orderid,
+        oc.cid,
+        oc.starttime,
+        oc.endtime,
+        oc.orderstatus,
+        oc.createtime
+        from classroom cr inner join ordercr oc on cr.cid = oc.cid
+        <where>
+            <if test='startdate != ""'>
+                oc.starttime like concat('%',#{startdate},'%')
+            </if>
+            <if test='cid != "all" or cid != "" or cid != null'>
+                and cr.cid = #{cid}
+            </if>
+        </where>
+    </select>
+
+</mapper>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mapper.AdminOrderMapper" >
+  <select id="getAdminOrderPageBean" parameterType="pojo.AdminOrderPageBean" resultType="pojo.Ordercr">
+    SELECT
+    *
+    FROM
+    ordercr
+    JOIN
+    administrator
+    ON
+    ordercr.snum = administrator.aid
+    <where>
+      <if test="orderDate != null and orderDate != '' ">
+        starttime LIKE  CONCAT('${orderDate}','%' )
+      </if>
+      <if test="cid != null and cid !=''">
+       AND  cid = ${cid}
+      </if>
+    </where>
+    ORDER BY orderid DESC
+    limit ${start},${pageSize};
+  </select>
+  <select id="selectAllAdmin" resultType="java.lang.String">
+    select aid from administrator ;
+  </select>
+</mapper>

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mapper.OrdercrMapper" >
+  <resultMap id="BaseResultMap" type="pojo.Ordercr" >
+    <id column="orderid" property="orderid" jdbcType="INTEGER" />
+    <result column="cid" property="cid" jdbcType="VARCHAR" />
+    <result column="starttime" property="starttime" jdbcType="VARCHAR" />
+    <result column="endtime" property="endtime" jdbcType="VARCHAR" />
+    <result column="theme" property="theme" jdbcType="VARCHAR" />
+    <result column="snum" property="snum" jdbcType="VARCHAR" />
+    <result column="stelephone" property="stelephone" jdbcType="VARCHAR" />
+    <result column="faculty" property="faculty" jdbcType="VARCHAR" />
+    <result column="groupname" property="groupname" jdbcType="VARCHAR" />
+    <result column="teacher" property="teacher" jdbcType="VARCHAR" />
+    <result column="ttelephone" property="ttelephone" jdbcType="VARCHAR" />
+    <result column="attendcount" property="attendcount" jdbcType="INTEGER" />
+    <result column="orderstatus" property="orderstatus" jdbcType="INTEGER" />
+    <result column="createtime" property="createtime" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    orderid, cid, starttime, endtime, theme, snum, stelephone, faculty, groupname, teacher, 
+    ttelephone, attendcount, orderstatus, createtime
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="pojo.OrdercrExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from ordercr
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from ordercr
+    where orderid = #{orderid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from ordercr
+    where orderid = #{orderid,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="pojo.OrdercrExample" >
+    delete from ordercr
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="pojo.Ordercr" >
+    insert into ordercr (orderid, cid, starttime, 
+      endtime, theme, snum, 
+      stelephone, faculty, groupname, 
+      teacher, ttelephone, attendcount, 
+      orderstatus, createtime)
+    values (#{orderid,jdbcType=INTEGER}, #{cid,jdbcType=VARCHAR}, #{starttime,jdbcType=VARCHAR}, 
+      #{endtime,jdbcType=VARCHAR}, #{theme,jdbcType=VARCHAR}, #{snum,jdbcType=VARCHAR}, 
+      #{stelephone,jdbcType=VARCHAR}, #{faculty,jdbcType=VARCHAR}, #{groupname,jdbcType=VARCHAR}, 
+      #{teacher,jdbcType=VARCHAR}, #{ttelephone,jdbcType=VARCHAR}, #{attendcount,jdbcType=INTEGER}, 
+      #{orderstatus,jdbcType=INTEGER}, #{createtime,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="pojo.Ordercr" >
+    insert into ordercr
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="orderid != null" >
+        orderid,
+      </if>
+      <if test="cid != null" >
+        cid,
+      </if>
+      <if test="starttime != null" >
+        starttime,
+      </if>
+      <if test="endtime != null" >
+        endtime,
+      </if>
+      <if test="theme != null" >
+        theme,
+      </if>
+      <if test="snum != null" >
+        snum,
+      </if>
+      <if test="stelephone != null" >
+        stelephone,
+      </if>
+      <if test="faculty != null" >
+        faculty,
+      </if>
+      <if test="groupname != null" >
+        groupname,
+      </if>
+      <if test="teacher != null" >
+        teacher,
+      </if>
+      <if test="ttelephone != null" >
+        ttelephone,
+      </if>
+      <if test="attendcount != null" >
+        attendcount,
+      </if>
+      <if test="orderstatus != null" >
+        orderstatus,
+      </if>
+      <if test="createtime != null" >
+        createtime,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="orderid != null" >
+        #{orderid,jdbcType=INTEGER},
+      </if>
+      <if test="cid != null" >
+        #{cid,jdbcType=VARCHAR},
+      </if>
+      <if test="starttime != null" >
+        #{starttime,jdbcType=VARCHAR},
+      </if>
+      <if test="endtime != null" >
+        #{endtime,jdbcType=VARCHAR},
+      </if>
+      <if test="theme != null" >
+        #{theme,jdbcType=VARCHAR},
+      </if>
+      <if test="snum != null" >
+        #{snum,jdbcType=VARCHAR},
+      </if>
+      <if test="stelephone != null" >
+        #{stelephone,jdbcType=VARCHAR},
+      </if>
+      <if test="faculty != null" >
+        #{faculty,jdbcType=VARCHAR},
+      </if>
+      <if test="groupname != null" >
+        #{groupname,jdbcType=VARCHAR},
+      </if>
+      <if test="teacher != null" >
+        #{teacher,jdbcType=VARCHAR},
+      </if>
+      <if test="ttelephone != null" >
+        #{ttelephone,jdbcType=VARCHAR},
+      </if>
+      <if test="attendcount != null" >
+        #{attendcount,jdbcType=INTEGER},
+      </if>
+      <if test="orderstatus != null" >
+        #{orderstatus,jdbcType=INTEGER},
+      </if>
+      <if test="createtime != null" >
+        #{createtime,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="pojo.OrdercrExample" resultType="java.lang.Integer" >
+    select count(*) from ordercr
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update ordercr
+    <set >
+      <if test="record.orderid != null" >
+        orderid = #{record.orderid,jdbcType=INTEGER},
+      </if>
+      <if test="record.cid != null" >
+        cid = #{record.cid,jdbcType=VARCHAR},
+      </if>
+      <if test="record.starttime != null" >
+        starttime = #{record.starttime,jdbcType=VARCHAR},
+      </if>
+      <if test="record.endtime != null" >
+        endtime = #{record.endtime,jdbcType=VARCHAR},
+      </if>
+      <if test="record.theme != null" >
+        theme = #{record.theme,jdbcType=VARCHAR},
+      </if>
+      <if test="record.snum != null" >
+        snum = #{record.snum,jdbcType=VARCHAR},
+      </if>
+      <if test="record.stelephone != null" >
+        stelephone = #{record.stelephone,jdbcType=VARCHAR},
+      </if>
+      <if test="record.faculty != null" >
+        faculty = #{record.faculty,jdbcType=VARCHAR},
+      </if>
+      <if test="record.groupname != null" >
+        groupname = #{record.groupname,jdbcType=VARCHAR},
+      </if>
+      <if test="record.teacher != null" >
+        teacher = #{record.teacher,jdbcType=VARCHAR},
+      </if>
+      <if test="record.ttelephone != null" >
+        ttelephone = #{record.ttelephone,jdbcType=VARCHAR},
+      </if>
+      <if test="record.attendcount != null" >
+        attendcount = #{record.attendcount,jdbcType=INTEGER},
+      </if>
+      <if test="record.orderstatus != null" >
+        orderstatus = #{record.orderstatus,jdbcType=INTEGER},
+      </if>
+      <if test="record.createtime != null" >
+        createtime = #{record.createtime,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update ordercr
+    set orderid = #{record.orderid,jdbcType=INTEGER},
+      cid = #{record.cid,jdbcType=VARCHAR},
+      starttime = #{record.starttime,jdbcType=VARCHAR},
+      endtime = #{record.endtime,jdbcType=VARCHAR},
+      theme = #{record.theme,jdbcType=VARCHAR},
+      snum = #{record.snum,jdbcType=VARCHAR},
+      stelephone = #{record.stelephone,jdbcType=VARCHAR},
+      faculty = #{record.faculty,jdbcType=VARCHAR},
+      groupname = #{record.groupname,jdbcType=VARCHAR},
+      teacher = #{record.teacher,jdbcType=VARCHAR},
+      ttelephone = #{record.ttelephone,jdbcType=VARCHAR},
+      attendcount = #{record.attendcount,jdbcType=INTEGER},
+      orderstatus = #{record.orderstatus,jdbcType=INTEGER},
+      createtime = #{record.createtime,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="pojo.Ordercr" >
+    update ordercr
+    <set >
+      <if test="cid != null" >
+        cid = #{cid,jdbcType=VARCHAR},
+      </if>
+      <if test="starttime != null" >
+        starttime = #{starttime,jdbcType=VARCHAR},
+      </if>
+      <if test="endtime != null" >
+        endtime = #{endtime,jdbcType=VARCHAR},
+      </if>
+      <if test="theme != null" >
+        theme = #{theme,jdbcType=VARCHAR},
+      </if>
+      <if test="snum != null" >
+        snum = #{snum,jdbcType=VARCHAR},
+      </if>
+      <if test="stelephone != null" >
+        stelephone = #{stelephone,jdbcType=VARCHAR},
+      </if>
+      <if test="faculty != null" >
+        faculty = #{faculty,jdbcType=VARCHAR},
+      </if>
+      <if test="groupname != null" >
+        groupname = #{groupname,jdbcType=VARCHAR},
+      </if>
+      <if test="teacher != null" >
+        teacher = #{teacher,jdbcType=VARCHAR},
+      </if>
+      <if test="ttelephone != null" >
+        ttelephone = #{ttelephone,jdbcType=VARCHAR},
+      </if>
+      <if test="attendcount != null" >
+        attendcount = #{attendcount,jdbcType=INTEGER},
+      </if>
+      <if test="orderstatus != null" >
+        orderstatus = #{orderstatus,jdbcType=INTEGER},
+      </if>
+      <if test="createtime != null" >
+        createtime = #{createtime,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where orderid = #{orderid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="pojo.Ordercr" >
+    update ordercr
+    set cid = #{cid,jdbcType=VARCHAR},
+      starttime = #{starttime,jdbcType=VARCHAR},
+      endtime = #{endtime,jdbcType=VARCHAR},
+      theme = #{theme,jdbcType=VARCHAR},
+      snum = #{snum,jdbcType=VARCHAR},
+      stelephone = #{stelephone,jdbcType=VARCHAR},
+      faculty = #{faculty,jdbcType=VARCHAR},
+      groupname = #{groupname,jdbcType=VARCHAR},
+      teacher = #{teacher,jdbcType=VARCHAR},
+      ttelephone = #{ttelephone,jdbcType=VARCHAR},
+      attendcount = #{attendcount,jdbcType=INTEGER},
+      orderstatus = #{orderstatus,jdbcType=INTEGER},
+      createtime = #{createtime,jdbcType=VARCHAR}
+    where orderid = #{orderid,jdbcType=INTEGER}
+  </update>
+</mapper>

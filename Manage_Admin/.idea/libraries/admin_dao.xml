@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="admin_dao">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/admin_dao/target/admin_dao.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

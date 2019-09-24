@@ -1,0 +1,10 @@
+Impl\ActivityServiceImpl.class
+service\ChangePasswordService.class
+service\AdminReservationService.class
+service\OrderService.class
+service\NoticeService.class
+service\StudentService.class
+service\LoginService.class
+service\ActivityService.class
+service\ClassroomService.class
+service\ReservationService.class

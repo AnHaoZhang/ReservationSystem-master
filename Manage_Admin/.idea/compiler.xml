@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="admin_service" />
+        <module name="admin_pojo" />
+        <module name="admin_dao" />
+        <module name="admin_controller" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="admin_controller" target="1.7" />
+      <module name="admin_dao" target="1.7" />
+      <module name="admin_pojo" target="1.7" />
+      <module name="admin_service" target="1.7" />
+      <module name="Manage_Admin" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mapper.OrderItemMapper" >
+
+    <select id="getActivityPageBean" parameterType="pojo.ActivityPageBean" resultType="pojo.OrderItem">
+        SELECT
+        starttime,
+        endtime,
+        cid,
+        theme,
+        groupname
+        FROM
+        ordercr
+        WHERE
+        (orderstatus = 0 or orderstatus =1)
+        AND
+        starttime <![CDATA[ >= ]]>  #{nowDate}
+        AND
+        starttime <![CDATA[ <= ]]> #{endDate}
+        ORDER BY
+        starttime
+        limit #{start},#{pageSize}
+    </select>
+    <select id="getActivityTotalCount" parameterType="java.lang.String" resultType="java.lang.Integer">
+        SELECT
+        COUNT(*)
+        FROM
+        ordercr
+        WHERE
+        starttime <![CDATA[ >= ]]>  #{0}
+        AND
+        starttime <![CDATA[ <= ]]> #{1}
+    </select>
+    <select id="getOrderItemByCidAndStartDate" parameterType="String" resultType="pojo.OrderItem">
+        SELECT
+        cid,
+        starttime,
+        endtime
+        FROM
+        ordercr
+        WHERE
+        starttime LIKE  #{1}"%"
+        AND
+        cid = #{0}
+        AND
+        orderstatus  <![CDATA[ != ]]> 2
+        AND
+       orderstatus  <![CDATA[ != ]]> 3
+    </select>
+    <select id="getOrderItemTimeList" resultType="pojo.OrderItem">
+        SELECT
+        cid,
+        starttime,
+        endtime,
+        FROM
+        ordercr
+    </select>
+ <select id="getOrderList" resultType="pojo.Ordercr">
+   select * from ordercr;
+ </select>
+  <select id="getOrderItemList" resultType="pojo.OrderItem">
+      SELECT
+      ordercr.orderid,
+      ordercr.cid,
+      s.snum,
+      s.sname,
+      ordercr.starttime,
+      ordercr.endtime,
+      ordercr.theme,
+      ordercr.faculty,
+      ordercr.groupname,
+      ordercr.teacher,
+      ordercr.stelephone,
+      ordercr.attendcount,
+      ordercr.orderstatus,
+      ordercr.createtime
+      FROM
+      ordercr LEFT  JOIN student s ON ordercr.snum = s.snum
+  </select>
+    <update id="updateOrderStatus" parameterType="java.lang.Integer">
+        update ordercr set  orderstatus =#{1}  where orderid=#{0};
+    </update>
+</mapper>
