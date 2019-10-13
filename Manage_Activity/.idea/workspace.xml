@@ -3,10 +3,49 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="Activity_controller:war exploded" />
+      <artifact name="Activity_controller:war exploded" />
+      <artifact name="Activity_controller:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88e86cb-3317-4e80-96d6-0409812f76e3" name="Default" comment="" />
+    <list default="true" id="a88e86cb-3317-4e80-96d6-0409812f76e3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../Manage_Student/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_controller/Activity_controller.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_controller/Activity_controller.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_controller/src/main/java/controller/ActivityInformationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_controller/src/main/java/controller/ActivityInformationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_controller/src/main/resource/conf/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_controller/src/main/resource/conf/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_controller/src/main/webapp/WEB-INF/jsp/activity.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_controller/src/main/webapp/WEB-INF/jsp/activity.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_controller/target/Activity_controller.war" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_controller/target/Activity_controller.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_controller/target/Activity_controller/WEB-INF/classes/conf/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_controller/target/Activity_controller/WEB-INF/classes/conf/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_controller/target/Activity_controller/WEB-INF/classes/controller/ActivityInformationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_controller/target/Activity_controller/WEB-INF/classes/controller/ActivityInformationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_controller/target/Activity_controller/WEB-INF/jsp/activity.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_controller/target/Activity_controller/WEB-INF/jsp/activity.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_controller/target/Activity_controller/WEB-INF/lib/Activity_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_controller/target/Activity_controller/WEB-INF/lib/Activity_dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_controller/target/Activity_controller/WEB-INF/lib/Activity_pojo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_controller/target/Activity_controller/WEB-INF/lib/Activity_pojo-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_controller/target/Activity_controller/WEB-INF/lib/Activity_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_controller/target/Activity_controller/WEB-INF/lib/Activity_service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_controller/target/classes/conf/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_controller/target/classes/conf/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_controller/target/classes/controller/ActivityInformationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_controller/target/classes/controller/ActivityInformationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_controller/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_controller/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_controller/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_controller/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_dao/target/Activity_dao.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_dao/target/Activity_dao.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_pojo/target/Activity_pojo.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_pojo/target/Activity_pojo.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_pojo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_service/target/Activity_service.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_service/target/Activity_service.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_service/target/surefire-reports/TEST-com.DLDX.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_service/target/surefire-reports/TEST-com.DLDX.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Activity_service/target/surefire-reports/com.DLDX.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Activity_service/target/surefire-reports/com.DLDX.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Activity_controller_war_exploded/WEB-INF/classes/conf/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Activity_controller_war_exploded/WEB-INF/classes/conf/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Activity_controller_war_exploded/WEB-INF/classes/controller/ActivityInformationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Activity_controller_war_exploded/WEB-INF/classes/controller/ActivityInformationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Activity_controller_war_exploded/WEB-INF/jsp/activity.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Activity_controller_war_exploded/WEB-INF/jsp/activity.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Manage_Student/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manage_Student/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +75,11 @@
   <component name="ProjectId" id="1R3C81qIid94pmF8JALfajzIXyI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554714230270" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Manage_Student" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -47,22 +87,22 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\idea\ReservationSystem-master\Manage_Activity\Activity_controller\src\main\webapp" />
-      <recent name="D:\idea\ReservationSystem-master\Manage_Activity\Activity_controller\src\main" />
-      <recent name="D:\SystemWork\Manage_Activity\Activity_controller\src\main\webapp\assets\images\QRcode" />
-      <recent name="D:\SystemWork\Manage_Activity\Activity_controller\src\main\webapp\WEB-INF\jsp" />
-      <recent name="D:\SystemWork\Manage_Activity\Activity_dao\src\main" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="controller" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\ReservationSystem-master\Manage_Activity\Activity_controller\src\main" />
       <recent name="D:\idea\ReservationSystem-master\Manage_Activity\Activity_dao\src\main" />
       <recent name="D:\idea\ReservationSystem-master\Manage_Activity\Activity_controller\src\main\resource" />
       <recent name="D:\idea\ReservationSystem-master\Manage_Activity\Activity_controller\src\main\webapp" />
       <recent name="D:\SystemWork\Manage_Activity\Activity_service\src\main\java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\ReservationSystem-master\Manage_Activity\Activity_controller\src\main\webapp" />
+      <recent name="D:\idea\ReservationSystem-master\Manage_Activity\Activity_controller\src\main" />
+      <recent name="D:\SystemWork\Manage_Activity\Activity_controller\src\main\webapp\assets\images\QRcode" />
+      <recent name="D:\SystemWork\Manage_Activity\Activity_controller\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\SystemWork\Manage_Activity\Activity_dao\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -111,7 +151,7 @@
       <deployment>
         <artifact name="Activity_controller:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/Activity_controller_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -174,6 +214,8 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
+          <artifact name="Activity_controller:war exploded" />
+          <artifact name="Activity_controller:war exploded" />
           <artifact name="Activity_controller:war exploded" />
         </option>
       </method>
@@ -239,6 +281,9 @@
       <workItem from="1569058794338" duration="1312000" />
       <workItem from="1569066524691" duration="1657000" />
       <workItem from="1569120492095" duration="283000" />
+      <workItem from="1569499634722" duration="2608000" />
+      <workItem from="1570770046687" duration="12450000" />
+      <workItem from="1570939422324" duration="1012000" />
     </task>
     <servers />
   </component>
@@ -253,5 +298,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

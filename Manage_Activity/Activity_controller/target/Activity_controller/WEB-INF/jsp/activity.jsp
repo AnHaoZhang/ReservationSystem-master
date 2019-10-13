@@ -47,9 +47,10 @@
     <script src="${pageContext.request.contextPath}/assets/js/html5shiv.min.js"></script>
     <script src="assets/js/respond.min.js"></script>
     <![endif]-->
-</head>
 
+</head>
 <body class="no-skin">
+
 <div id="navbar" class="navbar navbar-default          ace-save-state">
     <div class="navbar-container ace-save-state" id="navbar-container">
 
@@ -191,7 +192,7 @@
                     </li>
 
                     <li>
-                        <a href="${pageContext.request.contextPath}/admin/activity.html?currentPage=${pageBean.currentPage+1}&nowDate=${pageBean.nowDate}">
+                        <a id="xia" href="${pageContext.request.contextPath}/admin/activity.html?currentPage=${pageBean.currentPage+1}&nowDate=${pageBean.nowDate}">
                             <i class="ace-icon fa fa-caret-right bigger-140 middle"></i>
                         </a>
                     </li>
@@ -252,6 +253,15 @@
             selectOtherMonths: false
         });
     })
+</script>
+<script type="text/javascript">
+    $(function a(){
+        setInterval(function(){
+            var buy = document.getElementById('xia');//给你的a标签加一个id :btnBuy
+            buy.click();
+        },15000)//后面的500是以毫秒为单位。
+    });
+    a();
 </script>
 </body>
 

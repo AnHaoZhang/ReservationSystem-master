@@ -20,7 +20,7 @@ public class ActivityInformationController
     {
         SimpleDateFormat dateFormat=new SimpleDateFormat("yyyy-MM-dd");
         String  nowDate=dateFormat.format(new Date());
-        ActivityPageBean pageBean =  activityService.getActivityPageBean(10, currentPage, nowDate);
+        ActivityPageBean pageBean =  activityService.getActivityPageBean(5, currentPage, nowDate);
         model.addAttribute("pageBean",pageBean);
         return "activity";
     }

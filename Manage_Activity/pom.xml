@@ -87,7 +87,11 @@
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-databind</artifactId>
   </dependency>
-
+  <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
+  <dependency>
+    <groupId>redis.clients</groupId>
+    <artifactId>jedis</artifactId>
+  </dependency>
 </dependencies>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
