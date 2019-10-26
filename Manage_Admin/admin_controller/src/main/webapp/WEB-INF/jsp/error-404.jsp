@@ -64,7 +64,7 @@
             <a href="${pageContext.request.contextPath}/admin/login.html" class="navbar-brand">
                 <small>
                     <i class="fa fa-leaf"></i>
-                    创新楼教室预约系统
+                    <创新楼教室预></创新楼教室预>约系统
                 </small>
             </a>
         </div>

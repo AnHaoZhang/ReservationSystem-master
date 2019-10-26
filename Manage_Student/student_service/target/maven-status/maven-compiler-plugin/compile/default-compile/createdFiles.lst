@@ -1,3 +1,4 @@
+Impl\Redis.class
 Impl\ClassroomServiceImpl.class
 Impl\StudentServiceImpl.class
 service\OrderService.class

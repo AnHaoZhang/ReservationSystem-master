@@ -40,4 +40,5 @@ public interface OrderItemMapper {
 
     Integer hasOrderedTheDay(@Param("snum") String snum, @Param("startdate") String startdate);
 
+    List<Ordercr> getOrdbytime(String time);
 }

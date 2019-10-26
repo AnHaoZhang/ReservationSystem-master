@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mapper.StudentItemMapper">
+    <update id="updateSpwdBySnum" parameterType="pojo.Student">
+		update student
+		set spwd = #{spwd}
+		where snum = #{snum}
+	</update>
+    <update id="updateStuInfo" parameterType="pojo.Student">
+		update student
+		set spwd = #{spwd}, stelphone = #{stelphone}, sstatus = 1
+		where snum = #{snum}
+    </update>
+</mapper>

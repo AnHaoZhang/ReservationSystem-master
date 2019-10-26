@@ -410,5 +410,10 @@ public class OrderServiceImpl implements OrderService {
         return orderItemMapper.hasOrderedTheDay(snum, startdate);
     }
 
+    @Override
+    public List<Ordercr> getOrdbytime(String starttime) {
+        return orderItemMapper.getOrdbytime(starttime);
+    }
+
 
 }

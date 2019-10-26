@@ -19,7 +19,8 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
 public class WordUtils {
-
+    static final int wdDoNotSaveChanges = 0;// 不保存待定的更改。
+    static final int wdFormatPDF = 17;// PDF 格式
     private Configuration configuration = null;
     private Integer max_count;
 
@@ -40,7 +41,7 @@ public class WordUtils {
             e.printStackTrace();
         }
         /*/usr/local/dataFile/创新楼创客教室学生活动备案审批表.ftl*/
-        File outFile = new File("/usr/local/dataFile/创新楼创客教室学生活动备案审批表.doc"); //导出文件
+        File outFile = new File("/usr/local/dataFile/fa创新力预约系统创新楼创客教室学生活动备案审批表.doc"); //导出文件
         Writer out = null;
         try {
             FileOutputStream fos = new FileOutputStream(outFile);
@@ -119,153 +120,49 @@ public class WordUtils {
     }
 
     public void exportMillCertificateWord(HttpServletRequest request, HttpServletResponse response, Ordercr ordercr, String sname) throws IOException {
-        File file = null;
-        InputStream fin = null;
-        ServletOutputStream out = null;
-        List<File> list = new ArrayList<>();
-        File file1 = null;
+        File file = createWord(ordercr, sname);
+        String fileName=file.getName();
+        String ext=fileName.substring(fileName.lastIndexOf(".")+1);
+        String agent=(String)request.getHeader("USER-AGENT"); //判断浏览器类型
         try {
-            // 调用工具类的createDoc方法生成Word文档
-            file = createWord(ordercr, sname);
-            fin = new FileInputStream(file);
-
-
-            // 要压缩的文件路径
-            /*/usr/local/dataFile/创新楼创客教室学生活动备案审批表.zip*/
-            file1 = new File("/usr/local/dataFile/创新楼创客教室学生活动备案审批表.zip");
-            list.add(file);
-
-            boolean newFile = file1.createNewFile();
-            if (newFile) {
-
-            } else {
-
+            if(agent!=null && agent.indexOf("Fireforx")!=-1) {
+                fileName = new String(fileName.getBytes("UTF-8"), "iso-8859-1");   //UTF-8编码，防止输出文件名乱码
             }
-
-            //创建文件输出流
-            FileOutputStream fileOutputStream = new FileOutputStream(file1);
-            // ZipOutputStream输出流转换
-            ZipOutputStream zipOutputStream = new ZipOutputStream(fileOutputStream);
-            // 接收文件集合、压缩流
-            zipFileAll(list, zipOutputStream);
-            zipOutputStream.close();
-            fileOutputStream.close();
-            downloadZip(file1, response);
-
-
-            /*response.setCharacterEncoding("utf-8");
-            response.setContentType("application/msword");
-
-            // 设置浏览器以下载的方式处理该文件名
-            String fileName = "创新楼创客教室学生活动备案审批表.ftl";
-            response.setHeader("Content-Disposition", "attachment;filename="
-                    .concat(String.valueOf(URLEncoder.encode(fileName, "UTF-8"))));
-
-            out = response.getOutputStream();
-            byte[] buffer = new byte[512];  // 缓冲区
-            int bytesToRead = -1;
-            // 通过循环将读入的Word文件的内容输出到浏览器中
-            while ((bytesToRead = fin.read(buffer)) != -1) {
-                out.write(buffer, 0, bytesToRead);
-            }*/
-        } finally {
-            if (file != null) {
-                try {
-                    if (fin != null)
-                        fin.close();
-                    if (out != null)
-                        out.close();
-                } catch (Exception e) {
-                    e.printStackTrace();
-                } finally {
-                    System.gc();
-                    file.delete();// 删除临时文件
-                    file1.delete();
-                }
+            else {
+                fileName=URLEncoder.encode(fileName,"UTF-8");
             }
-        }
-    }
-
-    /**
-     * 把接收的全部文件打成压缩包
-     *
-     * @param files (文件集合)
-     * @param outputStream (压缩流、输出)
-     */
-    private static void zipFileAll(List files, ZipOutputStream outputStream) {
-        for (Object file1 : files) {
-            File file = (File) file1;
-            zipFile(file, outputStream);
-        }
-    }
-
-    /**
-     * 根据输入的文件与输出流对文件进行打包
-     *
-     * @param file (单个文件对象)
-     * @param outputStream (压缩流、输出)
-     */
-    private static void zipFile(File file, ZipOutputStream outputStream) {
-        try {
-            if (file.exists()) {
-                if (file.isFile()) {
-                    FileInputStream IN = new FileInputStream(file);
-                    BufferedInputStream bins = new BufferedInputStream(IN, 1024);
-                    // 将文件名写入压缩文件中
-                    ZipEntry entry = new ZipEntry(file.getName());
-                    outputStream.putNextEntry(entry);
-                    // 向压缩文件中输出数据
-                    int nNumber;
-                    byte[] buffer = new byte[1024];
-                    while ((nNumber = bins.read(buffer)) != -1) {
-                        outputStream.write(buffer, 0, nNumber);
-                    }
-                    outputStream.flush();
-                    bins.close();
-                    IN.close();
-                } else {
-                    File[] files = file.listFiles();
-                    for (File file1 : files) {
-                        zipFile(file1, outputStream);
-                    }
-                }
-            }
-        } catch (Exception e) {
+        } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
-    }
-
-
-    /**
-     * 下载文件,支持跨域
-     *
-     * @param file (要下载的文件)
-     * @param response
-     */
-    private static void downloadZip(File file, HttpServletResponse response) {
+        BufferedInputStream bis=null;
+        OutputStream os=null;
+        response.reset();
+        response.setCharacterEncoding("utf-8");
+        if(ext=="docx") {
+            response.setContentType("application/msword"); // word格式
+        }else if(ext=="pdf") {
+            response.setContentType("application/pdf"); // pdf格式
+        }
+        response.setHeader("Content-Disposition", "attachment; filename=" + fileName);
         try {
-            // 以流的形式下载文件。
-            InputStream fis = new BufferedInputStream(new FileInputStream(file.getPath()));
-            byte[] buffer = new byte[fis.available()];
-            fis.read(buffer);
-            fis.close();
-            response.reset();
-            OutputStream toClient = new BufferedOutputStream(response.getOutputStream());
-            response.setContentType("application/octet-stream");
-            response.setHeader("Content-Disposition", "attachment;filename=" + URLEncoder.encode(file.getName(), "UTF-8"));
-            toClient.write(buffer);
-            toClient.flush();
-            toClient.close();
-        } catch (IOException ex) {
-            ex.printStackTrace();
-        } finally {
-            try {
-                File f = new File(file.getPath());
-                System.gc();
-                file.delete();
-                f.delete();// 删除临时文件
-            } catch (Exception e) {
-                e.printStackTrace();
+            bis=new BufferedInputStream(new FileInputStream(file));
+            byte[] b=new byte[bis.available()+1000];
+            int i=0;
+            os = response.getOutputStream();   //直接下载导出
+            while((i=bis.read(b))!=-1) {
+                os.write(b, 0, i);
+            }
+            os.flush();
+            os.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }finally {
+            if(os!=null) {
+                try {
+                    os.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }

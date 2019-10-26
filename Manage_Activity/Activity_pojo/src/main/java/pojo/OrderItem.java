@@ -5,7 +5,6 @@ import java.io.Serializable;
 public class OrderItem implements Serializable
 {
     private Integer orderid;
-
     private String cid;
     private  String snum;
     private String starttime;
@@ -137,6 +136,17 @@ public class OrderItem implements Serializable
 
     public void setOrderstatus(Integer orderstatus) {
         this.orderstatus = orderstatus;
+    }
+
+    @Override
+    public String toString() {
+        return "OrderItem{" +
+                "cid='" + cid + '\'' +
+                ", starttime='" + starttime + '\'' +
+                ", endtime='" + endtime + '\'' +
+                ", theme='" + theme + '\'' +
+                ", groupname='" + groupname + '\'' +
+                '}';
     }
 
     public String getCreatetime() {

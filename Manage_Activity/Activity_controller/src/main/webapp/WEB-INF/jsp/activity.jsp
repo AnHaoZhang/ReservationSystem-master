@@ -96,9 +96,11 @@
                             <h1 style="font-size: 60px">
                                 创新创业活动信息
                             </h1>
-
                         </div>
                         <div class="page-header center">
+                            <div align="cneter">
+                            <font size="6"  color="red">禁止开展娱乐活动、举办晚会、才艺活动等</font>
+                            </div>
                             <img src="${pageContext.request.contextPath}/assets/1.png">
                             <h1 style="font-size: 15px;color: #000;">
                                 请使用校园网（DLU）扫描二维码访问

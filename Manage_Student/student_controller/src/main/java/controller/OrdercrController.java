@@ -1,5 +1,6 @@
 package controller;
 
+import Impl.Redis;
 import controller.wordexport.WordUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -47,6 +48,9 @@ public class OrdercrController {
 
     @Autowired
     private FreeMarkerConfigurer freeMarkerConfigurer;
+
+    @Autowired
+    private Redis redis;
 
     /*
 
@@ -268,7 +272,6 @@ public class OrdercrController {
 
                         Integer[] integers = new Integer[statusList.size()];
                         statusList.toArray(integers);
-
                         statusLists.add(integers);
                         statusList.clear();
                     }
@@ -579,6 +582,11 @@ public class OrdercrController {
             ordercr.setOrderstatus(0); // 订单状态默认是0-申请中
             ordercr.setCreatetime(df.format(date));
             orderService.addOrder(ordercr);
+            System.out.println("here");
+//            从本地取出数据到redis
+            redis.insert();
+            System.out.println("over");
+
             Integer orderCount = orderService.orderCount(student.getSnum(), "all", "");
 
             Integer page = 1;

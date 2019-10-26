@@ -260,4 +260,9 @@
         </if>
     </select>
 
+    <select id="getOrdbytime" parameterType="String" resultType="pojo.Ordercr">
+      select *
+      from ordercr
+      where starttime>=#{starttime}
+    </select>
 </mapper>

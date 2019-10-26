@@ -269,6 +269,7 @@
                 <div class="page-header">
                     <h1>
                         教室申请
+                        <font size="5" style="margin-left: 100px" color="red">禁止开展娱乐活动、举办晚会、才艺活动等</font>
                     </h1>
                 </div><!-- /.page-header -->
 

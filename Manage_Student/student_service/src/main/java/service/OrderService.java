@@ -52,4 +52,5 @@ public interface OrderService {
 
     public Integer hasOrderedTheDay(String snum, String startdate);
 
+    public List<Ordercr> getOrdbytime(String starttime);
 }

@@ -29,4 +29,5 @@ public interface OrdercrMapper {
     int updateByPrimaryKey(Ordercr record);
 
     List selectByExample1(OrdercrExample example);
+
 }

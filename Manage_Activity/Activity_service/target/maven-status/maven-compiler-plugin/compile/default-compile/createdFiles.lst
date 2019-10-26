@@ -1,5 +1,7 @@
 Impl\ActivityServiceImpl.class
 service\ChangePasswordService.class
+Impl\ActivityServiceImpl1.class
+service\ActivityService1.class
 service\AdminReservationService.class
 service\OrderService.class
 service\NoticeService.class

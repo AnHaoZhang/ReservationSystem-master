@@ -7,6 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
 import pojo.ActivityPageBean;
 import pojo.OrderItem;
+import redis.clients.jedis.Jedis;
 import service.ActivityService;
 
 import java.text.SimpleDateFormat;
